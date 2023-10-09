@@ -197,7 +197,7 @@ header{
     flex-direction: column;
     align-items: start;
 }
-.feature-description h4,h3{
+.feature-description h4, .feature-description h3{
     margin-bottom: 20px;
 }
 
@@ -228,9 +228,10 @@ header{
 
 }
 .nogap{
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
     font-size: 1.1rem;
     padding: 0 !important;
+    transform: translateY(4px);
 }
 .nogap1{
     font-size: 0.9rem;
@@ -265,7 +266,7 @@ header{
 }
 .card-text{
     position: absolute;
-    bottom:0;
+    bottom:20px;
     left:20px;
     right: 20px;
     color: white;
@@ -291,4 +292,53 @@ header{
 
 .examples-card:hover{
     box-shadow: 0 0 10px #888;
+}
+
+/* Panel */
+.panel-calculator{
+    background-color: #183b54;
+    /* background-color: beige; */
+    padding: 30px var(--padding-inline-section) 30px;
+
+}
+.left-part{
+    width: 50%;
+}
+.right-part{
+    width: 50%;
+    position: relative;
+}
+.list-flex{
+    column-gap: 25px;
+}
+.list-text-for{
+   font-size: 1rem;
+   row-gap: 10px;
+}
+.right-text-class{
+    position: absolute;
+    left: 37.5%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.icon{
+    transform: scale(2) translateY(-2.5px);
+    color: var(--accent-color);
+}
+.button-flex{
+    column-gap: 10px;
+}
+.panel-calculator{
+    color: whitesmoke;
+}
+.panel-calculator p{
+    color: whitesmoke;
+}
+.more{
+    color:whitesmoke !important;
+    border-color: whitesmoke;
 }
