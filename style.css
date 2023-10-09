@@ -216,9 +216,12 @@ header{
 
 }
 .name-card{
-    column-gap: 20px;
+    column-gap: 10px;
     height: 60px;
     position: relative;
+}
+.name-card-img{
+    height: 100%;
 }
 .image{
     height: 100%;
@@ -226,13 +229,66 @@ header{
 }
 .nogap{
     margin-bottom: 0px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    padding: 0 !important;
 }
 .nogap1{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 0 !important;
 }
 .details{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+.client-logo{
+    height: 30px;
+}
+.client-logo img{
+    height: 100%;
+    transform: translateY(-12px);
+}
+.examples-area{
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset\ 43.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.card-text{
+    position: absolute;
+    bottom:0;
+    left:20px;
+    right: 20px;
+    color: white;
+}
+.examples-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset\ 44.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.examples-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset\ 45.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset\ 46.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-out;
+}
+
+.examples-card:hover{
+    box-shadow: 0 0 10px #888;
 }
