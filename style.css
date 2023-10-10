@@ -342,3 +342,28 @@ header{
     color:whitesmoke !important;
     border-color: whitesmoke;
 }
+/* footer */
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer{
+    padding-block:80px;
+    background-color: #ebf2fa;
+
+}
+/* sub footer */
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.sub-footer-container{
+    justify-content: center;
+    gap: 30px;
+}
